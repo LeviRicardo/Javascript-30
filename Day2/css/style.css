@@ -1,0 +1,66 @@
+*{
+    border: 0;
+}
+
+body {
+    background: url("http://unsplash.it/1500/1000?image=881");
+}
+
+.relogio {
+    height: 35vh;
+    width: 35vh;
+    border: 25px solid white;
+    border-radius: 100vh;
+
+    position: absolute;
+    top: calc(50vh - 17.5vh - 50px);
+    left: calc(50vw - 17.5vh - 50px);
+}
+
+.ponteiroHora {
+    height: 1vh;
+    width: 8vh;
+    background: black;
+    
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform-origin: 0%;
+    transform: rotate(-90deg);
+    transition: all 0.5;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1.);
+}
+
+.ponteiroMinuto {
+    height: 1vh;
+    width: 13vh;
+    background: black;
+    
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform-origin: 0%;
+    transform: rotate(-90deg);
+    transition: all 0.5;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1.);
+}
+
+.ponteiroSegundo {
+    height: 1vh;
+    width: 16.5vh;
+    background: black;
+
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform-origin: 0%;
+    transform: rotate(-90deg);
+    transition: all 0.5;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1.);
+}
