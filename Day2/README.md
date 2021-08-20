@@ -7,7 +7,7 @@ The project idea is to create a simple HTML page with a functioning analog clock
 
 [pt-BR]
 
-# Dia 1
+# Dia 2
 ## Relógio
 
 A ideia do projeto é criar uma página HTML simples mostrando um relógio analógico funcional.
